@@ -1,8 +1,7 @@
 # Quickstart Sample
 
-This example shows how to add login/logout and extract user profile information from claims.
+This example demonstrates WS-FED login.
 
-You can read a quickstart for this sample [here](https://auth0.com/docs/quickstart/webapp/aspnet-core).
 
 ## Requirements
 
