@@ -1,0 +1,28 @@
+{
+    "name": "ws-fed3",
+    "is_first_party": true,
+    "oidc_conformant": true,
+    "addons": {
+      "wsfed": {}
+    },
+    "allowed_clients": [],
+    "callbacks": [
+      "http://localhost:6003/signin-wsfed"
+    ],
+    "allowed_logout_urls": [
+      "http://localhost:6003/"
+    ],
+    "jwt_configuration": {
+      "alg": "RS256",
+      "lifetime_in_seconds": 36000,
+      "secret_encoded": false
+    },
+    "client_aliases": [
+      "urn:wsfed3"
+    ],
+    "token_endpoint_auth_method": "client_secret_post",
+    "app_type": "regular_web",
+    "grant_types": [
+      "authorization_code"
+    ]
+  }
